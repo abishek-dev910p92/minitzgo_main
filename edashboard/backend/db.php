@@ -13,8 +13,8 @@ if ($_SERVER['HTTP_HOST'] === 'localhost') {
     $db_user = "u473959262_dashboard";
     $db_pass = "9fCa4G@o";
     $db_name = "u473959262_edashboard";
-}
-
+} 
+ 
 // Establish database connection
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
 
